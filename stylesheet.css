@@ -1,0 +1,13 @@
+
+body{
+    display: flex;
+    margin: 0px;
+    background-color: rgb(234, 250, 233);
+}
+
+#Navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: tomato;
+}
