@@ -1,14 +1,38 @@
 
 body{
-    display: flex;
+    /* display: flex; */
     margin: 0px;
-    background-color: rgb(234, 250, 233);
+    /* background-color: rgb(250, 248, 233); */
+}
+
+#Jason-Lopez{
+    display: flex;
+    justify-content: center;
+
 }
 
 #Navigation{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    height: 100px;
     width:auto;
     background-color: tomato;
+    align-content: center;
+}
+ul{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+li{
+    font-size: xx-large;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#utube{
+    display: flex;
+    justify-items: left;
 }
