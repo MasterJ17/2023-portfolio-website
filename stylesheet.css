@@ -8,20 +8,20 @@ body{
 #Jason-Lopez{
     display: flex;
     justify-content: center;
-
+    font-size: x-large;
 }
 
 #Navigation{
     height: 100px;
     width:auto;
     background-color: tomato;
-    align-content: center;
 }
 ul{
     display:flex ;
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
+
 }
 li{
     font-size: xx-large;
@@ -30,9 +30,52 @@ li{
 #about{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    width: 280px;
+    height: 500px;
+    position: relative;
+    left: 1350px;
+    top: -500px;
 }
 #utube{
     display: flex;
-    justify-items: left;
+    justify-content: center;
+    background-color: tomato;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#tkd{
+    height: 650px;
+    width: 530px;
+}
+#cello{
+    height: 325px;
+    width: 408px;
+}
+#digiral-art{
+    height: 290px;
+    width: 408px;
+}
+#hire{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 1000px;
+    bottom: 600px;
+}
+
+h1 {
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+    color: brown;
+    transition-property: background-color color height width;
+    transition-duration: .8s;
+    transition-delay: .25s;
+}
+h1:hover {
+    background-color: blue;
+    color: gray;
+    height: 500px;
+    width: 500px;
+    transition-property: background-color color height width;
 }
