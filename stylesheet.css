@@ -1,8 +1,14 @@
 
 body{
-    /* display: flex; */
     margin: 0px;
-    /* background-color: rgb(250, 248, 233); */
+    width: 1024px;
+    position: relative;
+    left: 512px;
+}
+
+#body-box{
+    display: flex;
+    flex-direction: column;
 }
 
 #Jason-Lopez{
@@ -19,22 +25,23 @@ body{
 ul{
     display:flex ;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style-type: none;
-
 }
 li{
     font-size: xx-large;
 }
 
+#pic{
+display: flex;
+flex-wrap: wrap;
+}
+
 #about{
-    display: flex;
-    flex-direction: column;
     width: 280px;
     height: 500px;
     position: relative;
-    left: 1350px;
-    top: -500px;
+    left: 75px;
 }
 #utube{
     display: flex;
@@ -57,10 +64,7 @@ li{
 }
 #hire{
     display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 1000px;
-    bottom: 600px;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -79,3 +83,12 @@ h1:hover {
     width: 500px;
     transition-property: background-color color height width;
 }
+#links {
+    height: 150px;
+    background-color: tomato;
+}
+
+a:visited, a:hover, a:focus {
+        text-decoration: none;
+        color: #000;
+    }
