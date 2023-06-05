@@ -2,8 +2,6 @@
 body{
     margin: 0px;
     width: 1024px;
-    position: relative;
-    left: 512px;
 }
 
 #body-box{
@@ -22,13 +20,14 @@ body{
     width:auto;
     background-color: tomato;
 }
-ul{
+#nav{
     display:flex ;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style-type: none;
+    text-size-adjust: xx-large ;
 }
-li{
+#list{
     font-size: xx-large;
 }
 
@@ -53,10 +52,14 @@ flex-wrap: wrap;
 #tkd{
     height: 650px;
     width: 530px;
+    position:relative;
+    left: 15px;
 }
 #cello{
     height: 325px;
     width: 408px;
+    position: relative;
+    left: 65px;
 }
 #digiral-art{
     height: 290px;
@@ -92,3 +95,8 @@ a:visited, a:hover, a:focus {
         text-decoration: none;
         color: #000;
     }
+
+#Social{
+    display: flex;
+    flex-wrap: wrap;
+}
